@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*SUPERCONTENEDOR*/
+
+.supercontenedor {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+/*HEADER*/
+
+.header__img--logo {
+    margin: 1rem;
+    height: 4rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header__nav--elemento{
+    font-size: 1rem;
+    color:rgb(72, 72, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 1rem;
+    text-decoration: none;
+}
+
+/*
+.header__buscar{
+   
+}
+*/
+
+.header__img--bolsa{
+    margin: 1rem;
+    height: 2rem;
+}
+
+
+/*MAIN INDEX*/
+
+.main{
+    display: flex;
+    background-image: url(../img/portada_xl.png);
+    height: 650px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.main__img--logo {
+    margin: 3rem;
+    height: 8rem;
+}
+
+.main__elemento--encabezado{
+    font-size: 2rem;
+    color:rgb(27, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.main__text{
+    font-size: 20px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    padding: 2rem 2rem;
+}
+
+.main__elemento{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 2rem;
+    row-gap: 2rem;
+    column-gap: 4rem;
+}
+
+.main__elemento--img{
+    margin: 2rem;
+    height: 10rem;
+}
+
+.main__elemento--descripcion{
+    align-items: center;
+    font-size: 1rem;
+}
+
+.main__elemento--titulo{
+    font-size: 2rem;
+    color:rgb(6, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.der{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.izq{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main__elemento--bajada{
+    font-size: 1rem;
+    color:rgb(65, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+/*MAIN PRODUCTOS*/
+
+.productos__encabezado{
+    font-size: 30px;
+    color:black;
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+.productos__galeria{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.productos__descripcion{
+    font-size: 15px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+
+.productos__precio{
+    font-size: 18px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    /*text-align: center;*/
+}
+
+.productos__comprar{
+    margin: 5px 0px 20px 0px;
+}
+
+.productos__img{
+    width: 250px;
+    border: solid 1px;
+}
+
+/*MAIN NOSOTROS*/
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosotros__img{
+    width:400px;
+    height:650px
+}
+
+.nosotros__encabezado{
+    color: grey;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.nosotros__parrafo{
+    color:black;
+    font-size:20 px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+/*MAIN PREGUNTAS FRECUENTES*/
+
+.preguntas__titulo{
+    color: grey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+
+.preguntas__parrafo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+/*MAIN CONTACTO*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.form_elemento{
+    margin: 10px;
+}
+
+.form_encabezado{
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin: 8px;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    background-color: rgb(225, 225, 225);     
+}
+
+.footer__encabezado{
+    font-size: 1rem;
+    color:rgb(10, 10, 10);
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+.footer__redes{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__redes--img{
+    width: 1.5rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:425px){
+
+.header{
+    flex-direction: column;
+}
+
+.header__img--logo{
+    margin: 1rem;
+    height: 3rem;
+
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+}
