@@ -259,6 +259,8 @@
 
 @media screen and (max-width:425px){
 
+/*HEADER*/
+    
 .header{
     flex-direction: column;
 }
@@ -267,10 +269,78 @@
     margin: 1rem;
     height: 3rem;
 
-    }
+}
 
-    .header__nav {
-        flex-direction: column;
-    }
+.header__nav {
+    flex-direction: column;
+}
+
+.header__nav--elemento {
+    font-size: .7rem;
+}
+
+.header__img--bolsa {
+    height: 1.5rem;
+}
+
+/*MAIN INDEX*/
+
+.main {
+    height: 350px;
+
+}
+
+.main__img--logo {
+    margin: 1.5rem;
+    height: 4rem;
+}
+
+.main__elemento--encabezado {
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.main__elemento {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem 2rem 5rem;
+    row-gap: 1rem;
+}
+
+.der{
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.izq{
+    text-align:center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.main__elemento--titulo {
+    font-size: 1rem;
+}
+
+.main__elemento--bajada {
+    font-size: .7rem;
+}
+
+.main__elemento--img {
+    margin: 1rem;
+}
+
+/*FOOTER*/
+
+.footer__encabezado {
+    font-size: .7rem;
+    margin: 1rem 0rem .5rem 1rem;
+}
+
+.footer__redes--img {
+    width: 1rem;
+}
 
 }
