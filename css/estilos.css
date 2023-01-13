@@ -70,7 +70,7 @@
 
 .main__elemento--encabezado{
     font-size: 2rem;
-    color:rgb(27, 27, 27);
+    color:rgb(65, 65, 65);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 4rem;
@@ -89,12 +89,13 @@
 .main__elemento--descripcion{
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 1rem;
 }
 
 .main__elemento--img{
     margin: 2rem;
-    height: 15rem;
+    height: 10rem;
 }
 
 .main__elemento--primeraimg{
@@ -110,11 +111,6 @@
     text-align: right;
 }
 
-.main__elemento--segundaimg{
-    display: flex;
-    justify-content: flex-start;
-}
-
 .main__elemento--titulo{
     font-size: 2rem;
     color:rgb(6, 6, 6);
@@ -123,7 +119,7 @@
 
 .main__elemento--bajada{
     font-size: 1rem;
-    color:rgb(65, 65, 65);
+    color:rgb(49, 49, 49);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -280,12 +276,13 @@
 }
 
 .main__elemento--encabezado {
-    color:rgb(65, 65, 65);
+    font-size: 1.5rem;
 }
 
 .main__elemento {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 1rem;
     padding: 1.5rem;
 }
@@ -293,18 +290,6 @@
 .border {
     border-bottom: solid 0.5px rgb(182, 182, 182);
     padding-bottom: 1.5rem;
-}
-
-.der{
-    text-align: center;
-    overflow: hidden;
-    justify-content: center;
-}
-
-.izq{
-    text-align:center;
-    overflow: hidden;
-    justify-content: center;
 }
 
 .main__elemento--img {
