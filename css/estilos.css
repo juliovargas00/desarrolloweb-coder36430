@@ -18,38 +18,42 @@
     height: 4rem;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-}
-
 .header__nav--elemento{
-    font-size: 1rem;
+    font-size: .8rem;
     color:rgb(72, 72, 71);
     font-family: Arial, Helvetica, sans-serif;
     padding-inline: 1rem;
     text-decoration: none;
 }
 
-/*
-.header__buscar{
-
-}
-*/
-
 .header__img--bolsa{
     margin: 1rem;
-    height: 2rem;
+    height: 1.8rem;
+    border-left: solid rgb(174, 174, 174) .5px;
+    padding-left: .8rem;
 }
 
+.navbar-toggler {
+    font-size:medium;
+}
+
+.btn{
+    background-color:transparent;
+    border:transparent;
+}
+
+.btn:hover {
+    background-color: rgb(221, 219, 219);
+    border-color:transparent;
+}
+
+.btn-outline-success {
+    --bs-btn-active-bg: #484848;
+}
+
+.lupa{
+    width: 1rem;
+}
 
 /*MAIN INDEX*/
 
@@ -57,10 +61,12 @@
     display: flex;
     background-image: url(../img/portada_xl.png);
     height: 650px;
+    width: 100%;
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: flex-end;
+    box-sizing: border-box;
 }
 
 .main__img--logo {
@@ -75,6 +81,7 @@
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 2rem;
+    font-weight: bold;
 }
 
 .main__elemento{
@@ -237,7 +244,7 @@
 .footer__encabezado{
     font-size: 1rem;
     color:rgb(10, 10, 10);
-    margin: 1rem;
+    margin: 1rem 1rem .5rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bolder;
 }
@@ -287,7 +294,7 @@
     padding: 1.5rem;
 }
 
-.border {
+.border-b {
     border-bottom: solid 0.5px rgb(182, 182, 182);
     padding-bottom: 1.5rem;
 }
@@ -314,20 +321,11 @@
 
 /*HEADER*/
     
-.header{
-    flex-direction: column;
-}
-
 .header__img--logo{
     margin: 1rem;
     height: 3rem;
 
 }
-
-.header__nav {
-    flex-direction: column;
-}
-
 
 .header__img--bolsa {
     height: 1.5rem;
