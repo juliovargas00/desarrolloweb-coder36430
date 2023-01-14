@@ -148,41 +148,51 @@
 /*MAIN PRODUCTOS*/
 
 .productos__encabezado{
-    font-size: 30px;
-    color:black;
-    margin: 10px 10px;
+    font-size: 2rem;
+    color: rgb(6, 6, 6);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:bolder;
+    font-weight: bold;
+    text-align: center;
 }
 
 .productos__galeria{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    padding-left: 0;
 }
 
 .productos__descripcion{
-    font-size: 15px;
+    font-size: 1rem;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:normal;
+    margin-top: 1rem;
+    margin-left: .5rem;
 }
 
 .productos__precio{
-    font-size: 18px;
+    font-size: 1rem;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bolder;
-    /*text-align: center;*/
 }
 
 .productos__comprar{
-    margin: 5px 0px 20px 0px;
+    font-size: 1rem;
 }
 
 .productos__img{
-    width: 250px;
+    height: 300px;
     border: solid 1px;
+}
+
+.precio_comprar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: .5rem;
+    margin-left: .5rem;
 }
 
 /*MAIN NOSOTROS*/
@@ -217,40 +227,70 @@
 }
 
 
-
 /*MAIN PREGUNTAS FRECUENTES*/
 
-.preguntas__titulo{
-    color: grey;
-    font-size: 20px;
+.main__preguntas--encabezado{
+    font-size: 2rem;
+    color:rgb(6, 6, 6);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    padding: 10px 0px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.preguntas__parrafo{
-    font-size: 15px;
+.main__preguntas--titulo{
+    font-size: 1rem;
+    color:rgb(6, 6, 6);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    padding-bottom: 10px;
+    font-weight: bold;
 }
+
+.main__preguntas--contenido{
+    text-align: justify;
+}
+
+.main__preguntas--padding{
+    padding: 1.5rem;
+    padding-top: 0rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(70, 70, 70);
+    background-color: rgb(202, 202, 202);
+}
+
 /*MAIN CONTACTO*/
 
-.form{
+.main__contacto--form{
     display: flex;
     flex-direction: column;
-    margin: 10px;
-}
-.form_elemento{
-    margin: 10px;
+    align-items: center;
 }
 
-.form_encabezado{
-    color: grey;
-    font-size: 15px;
+.nosotros__form--encabezado{
+    font-size: 1.5rem;
+    color: rgb(6, 6, 6);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 8px;
-    margin: 8px;
+    font-weight: bold;
+}
+
+.nosotros__form--elemento{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.nosotros__form--boton{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: #444444 solid 1px;
+    color: #000000;
+    background-color: #b0b0b0;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -326,6 +366,21 @@
     margin-top: 1rem;
 }
 
+.productos__galeria{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-items: center;
+    margin-bottom: 3rem;
+}
+
+.productos__img {
+    height: 250px;
+    border: solid 1px;
+    margin-top: 1.5rem;
+}
+
 /*FOOTER*/
 
 .footer__encabezado {
@@ -376,4 +431,6 @@
     margin-top: 1rem;
 }
 
+.productos__galeria{
+    grid-template-columns: auto auto;
 }
