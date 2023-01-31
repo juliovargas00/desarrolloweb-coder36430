@@ -259,14 +259,15 @@ contacto*/
     margin-top: .5rem;
     margin-bottom: .5rem; }
   .contacto__form--boton {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    border: #444444 solid 1px;
-    color: #000000;
-    background-color: #b0b0b0;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-size: .7rem;
+    background-color: #444444;
+    color: #ffffff;
+    padding: .3rem;
+    border-radius: .3rem;
+    border: solid 1px; }
+    .contacto__form--boton:hover {
+      background-color: #242424;
+      border-color: transparent; }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
@@ -281,21 +282,21 @@ contacto*/
 index*/
   .main {
     height: 550px; }
-    .main--logo {
-      margin: 1.5rem;
-      height: 6rem; }
+  .main--logo {
+    margin: 1.5rem;
+    height: 6rem; }
   .main__seccion2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
     padding: 1.5rem; }
-    .main__seccion2--encabezado {
-      font-size: 1.5rem; }
-    .main__seccion2--img {
-      margin: 0rem; }
-    .main__seccion2--bajada {
-      margin-top: 1rem; }
+  .main__seccion2--encabezado {
+    font-size: 1.5rem; }
+  .main__seccion2--img {
+    margin: 0rem; }
+  .main__seccion2--bajada {
+    margin-top: 1rem; }
   .border-b {
     border-bottom: solid 0.5px #b6b6b6;
     padding-bottom: 1.5rem; }
@@ -342,8 +343,8 @@ productos*/
 contacto*/
   .contacto {
     flex-direction: column; }
-    .contacto__descripcion {
-      border-right: none;
-      padding-right: 0rem; }
-    .contacto__form {
-      padding-left: 0rem; } }
+  .contacto__descripcion {
+    border-right: none;
+    padding-right: 0rem; }
+  .contacto__form {
+    padding-left: 0rem; } }

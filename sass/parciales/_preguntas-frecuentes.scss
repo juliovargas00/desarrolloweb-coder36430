@@ -2,15 +2,15 @@
 preguntas frecuentes*/
 .main__preguntas{
     &--encabezado{
-    font-size: 2rem;
-    color:rgb(6, 6, 6);
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: $size-titulo;
+    color:$colortext-1;
+    font-family: $familiafuente-general;
     font-weight: bold;
     text-align: center;}
     &--titulo{
         font-size: 1rem;
-        color:rgb(6, 6, 6);
-        font-family: Arial, Helvetica, sans-serif;
+        color:$colortext-1;
+        font-family: $familiafuente-general;
         font-weight: bold;}
     &--contenido{
         text-align: justify;}

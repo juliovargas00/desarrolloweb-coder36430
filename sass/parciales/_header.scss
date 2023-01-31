@@ -3,8 +3,8 @@
     --bs-gutter-x: 0rem;
     &__nav--texto{
             font-size: 1rem;
-            color:rgb(72, 72, 71);
-            font-family: Arial, Helvetica, sans-serif;
+            color: $colortext-2;
+            font-family: $familiafuente-general;
             padding-inline: 1rem;
             text-decoration: none;}
     &__img{
