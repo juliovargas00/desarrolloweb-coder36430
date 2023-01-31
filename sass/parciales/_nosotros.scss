@@ -1,0 +1,25 @@
+/*MAIN
+nosotros*/
+.main__nosotros{
+    &--descripcion{
+    padding: 1.5rem;
+    padding-top: 0rem; 
+    padding-bottom: .5rem;
+    text-align: justify;}
+    &--encabezado{
+        font-size: 2rem;
+        color: rgb(6, 6, 6);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;}
+    &--parrafo{
+        font-size: 1rem;
+        color: rgb(49, 49, 49);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;}
+    &--negrita{
+        font-weight: bold;}
+    }
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0rem}
+    
