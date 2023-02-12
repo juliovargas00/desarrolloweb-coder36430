@@ -45,12 +45,9 @@ index*/
 /*MAIN
 productos*/
 .productos__galeria{
-        display: grid;
-        grid-template-columns: auto auto auto;
         box-sizing: border-box;
         overflow: hidden;
-        justify-items: center;
-        margin-bottom: 3rem;}
+        justify-items: center;}
 .productos__img {
         height: 200px;
         border: solid 1px;

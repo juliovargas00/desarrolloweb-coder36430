@@ -8,12 +8,14 @@ productos*/
         font-weight: bold;
         text-align: center;}
     &__galeria{
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto;
         list-style-type: none;
         justify-content: space-around;
         text-align: center;
         gap: .5rem;
-        padding-left: 0;}
+        padding-left: 0;
+        margin-bottom: 7rem;}
     &__img{
         height: 300px;
         border: solid 1px;

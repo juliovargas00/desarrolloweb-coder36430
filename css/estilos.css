@@ -128,12 +128,14 @@ productos*/
   text-align: center; }
 
 .productos__galeria {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   list-style-type: none;
   justify-content: space-around;
   text-align: center;
   gap: .5rem;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-bottom: 7rem; }
 
 .productos__img {
   height: 300px;
@@ -200,7 +202,9 @@ nosotros*/
   --bs-gutter-x: 0rem; }
 
 .row {
-  margin-bottom: 7rem; }
+  margin-bottom: 7rem;
+  margin-left: 0rem;
+  width: 100%; }
 
 /*MAIN
 preguntas frecuentes*/
@@ -309,12 +313,9 @@ index*/
   /*MAIN
 productos*/
   .productos__galeria {
-    display: grid;
-    grid-template-columns: auto auto auto;
     box-sizing: border-box;
     overflow: hidden;
-    justify-items: center;
-    margin-bottom: 3rem; }
+    justify-items: center; }
   .productos__img {
     height: 200px;
     border: solid 1px;
