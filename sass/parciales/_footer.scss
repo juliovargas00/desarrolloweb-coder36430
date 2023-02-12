@@ -1,6 +1,9 @@
 /*FOOTER*/
 .footer{
-    background-color:$fondo-footer ;     
+    background-color:$fondo-footer ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
     &__encabezado{
         font-size: 1rem;
         color: $colortext-1;

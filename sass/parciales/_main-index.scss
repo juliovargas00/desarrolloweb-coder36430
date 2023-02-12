@@ -22,6 +22,7 @@ index*/
     padding: 2rem 10rem 2rem 10rem;
     row-gap: 2rem;
     column-gap: 4rem;
+    margin-bottom: 5rem;
     &--encabezado{
         font-size: $size-titulo;
         color: $colortext-1;
@@ -41,10 +42,8 @@ index*/
         align-items: center;
         justify-content: center;
         font-size: 1rem;}    
-    &--primerparrafo{
-        text-align: left;}
-    &--segundoparrafo{
-        text-align: right;}
+    &--parrafo{
+        text-align: center;}
     &--titulo{
         font-size: 2rem;
         color:$colortext-1;

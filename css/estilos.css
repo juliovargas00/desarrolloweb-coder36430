@@ -47,7 +47,10 @@
 
 /*FOOTER*/
 .footer {
-  background-color: #e1e1e1; }
+  background-color: #e1e1e1;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
   .footer__encabezado {
     font-size: 1rem;
     color: #060606;
@@ -82,7 +85,8 @@ index*/
   grid-template-rows: auto auto;
   padding: 2rem 10rem 2rem 10rem;
   row-gap: 2rem;
-  column-gap: 4rem; }
+  column-gap: 4rem;
+  margin-bottom: 5rem; }
   .main__seccion2--encabezado {
     font-size: 2rem;
     color: #060606;
@@ -102,10 +106,8 @@ index*/
     align-items: center;
     justify-content: center;
     font-size: 1rem; }
-  .main__seccion2--primerparrafo {
-    text-align: left; }
-  .main__seccion2--segundoparrafo {
-    text-align: right; }
+  .main__seccion2--parrafo {
+    text-align: center; }
   .main__seccion2--titulo {
     font-size: 2rem;
     color: #060606;
@@ -135,7 +137,8 @@ productos*/
 
 .productos__img {
   height: 300px;
-  border: solid 1px; }
+  border: solid 1px;
+  width: 100%; }
 
 .productos__descripcion {
   font-size: 1rem;
@@ -195,6 +198,9 @@ nosotros*/
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   --bs-gutter-x: 0rem; }
+
+.row {
+  margin-bottom: 7rem; }
 
 /*MAIN
 preguntas frecuentes*/
